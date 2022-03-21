@@ -1,0 +1,14 @@
+node_modules/
+**/.dist/
+db
+.DS_Store
+secrets
+creds
+files
+hidden
+.env
+/packages/api/*.env
+/packages/web/*.env
+build
+packages/api/package-lock.json
+packages/web/package-lock.json
