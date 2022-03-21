@@ -70,6 +70,6 @@ function clientErrorHandler(err, req, res, next) {
 	}
 }
 
-app.listen(3001, function () {
+app.listen(process.env.PORT || 3001, function () {
 	console.log('Example app listening on port 3001!');
 });
